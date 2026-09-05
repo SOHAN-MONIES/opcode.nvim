@@ -1,0 +1,1 @@
+local M = {} function M.setup() local colors = require("opcode.palette") require("opcode.highlights").setup(colors) require("opcode.treesitter").setup(colors) require("opcode.lsp").setup(colors) require("opcode.plugins").setup(colors) vim.g.colors_name = "opcode" end return M
