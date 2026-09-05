@@ -1,4 +1,3 @@
-````markdown
 # Opcode.nvim
 
 A clean, low-glare dark colorscheme for Neovim.
@@ -17,21 +16,15 @@ A clean, low-glare dark colorscheme for Neovim.
 
 ```lua
 use("SOHAN-MONIES/opcode.nvim")
-````
-
-Then:
-
-```lua
-vim.cmd.colorscheme("opcode")
 ```
 
 ## Development
 
 ```bash
 git clone https://github.com/SOHAN-MONIES/opcode.nvim
+cd opcode.nvim
 ```
 
 ## License
 
 MIT
-
